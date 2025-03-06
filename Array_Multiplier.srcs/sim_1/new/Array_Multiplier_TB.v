@@ -14,7 +14,7 @@ module Array_Multiplier_TB #(parameter width = 32)();
 			#10;
 		end
 	end
-
+	
 	initial
-	   $monitor ("a=%d, x=%d, Result=%d, expected=%d", a, x, Result, expected);
+		$monitor ("a = %d, x = %d, Result = %d, expected = %d", a, x, Result, expected);
 endmodule
